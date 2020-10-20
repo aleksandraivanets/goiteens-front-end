@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    padding: 70px 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    
+    
+}
+
+.menu{
+    text-align: center;
+    
+}
+
+.menu-list{
+    text-align: center;
+    font-size: 0px;
+    display: inline-block;  
+}
+
+
+
+
+.menu-list__item {
+display: inline-block;
+padding: 50px;
+}
+
+.menu-list__item-link:hover {
+color: #3eb5ea;
+
+}
+
+
+.menu-list__item-link{
+    text-decoration: none;
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+    line-height: 1.714;
+    
+}
+
+.conteiner-lifestyle{
+    font-size: 0;
+}
+
+
+
+.lifestyle {
+   margin-bottom: 130px;
+    display: inline-block;
+   max-width: 50%;
+   font-size: 14px;
+   
+   vertical-align: top;
+           
+ }
+
+ .lifestyle-p{
+    margin-bottom: 34px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 300;
+ }
+
+ .lifestyle-p_{   
+    margin-bottom: 41px;
+    font-size: 30px;
+    line-height: 1.2;
+ }
+
+ .lifestyle-p__{
+  line-height: 1.714;
+ }
+
+ .foto{
+    margin-bottom: 30px; 
+ }
+
+ 
+
+ .left{
+     padding-right: 30px;
+ }
+
+ .right{
+     padding-left: 30px;
+ }
+
+
+
+.wrp-btn{
+    text-align: center;
+}
+
+.btn-load{
+    display: inline-block;
+    width: 164px;
+    height: 60px;
+    border: rgb(98, 98, 98) solid 1px;
+    color: #626262;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    text-decoration: none;
+    margin-bottom: 54px;
+    
+}
+
+
+.btn-load:hover{
+    color: #3eb5ea;
+}
