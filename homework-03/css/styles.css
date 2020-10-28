@@ -42,7 +42,7 @@ header{
 
 .menu-list__item {
 display: inline-block;
-padding: 50px;
+padding: 70px;
 }
 
 .menu-list__item-link:hover {
@@ -62,6 +62,8 @@ color: #3eb5ea;
 
 .conteiner-lifestyle{
     font-size: 0;
+    margin-bottom: -130px;
+    overflow: hidden;
 }
 
 
@@ -114,23 +116,25 @@ color: #3eb5ea;
 
 .wrp-btn{
     text-align: center;
+    padding: 54px;
 }
 
 .btn-load{
     display: inline-block;
-    width: 164px;
+    width: 165px;
     height: 60px;
     border: rgb(98, 98, 98) solid 1px;
     color: #626262;
     text-align: center;
-    font-size: 24px;
+    font-size: 17px;
     line-height: 60px;
     text-decoration: none;
-    margin-bottom: 54px;
+    margin-bottom: 36px;
+    
     
 }
 
 
-.btn-load:hover{
-    color: #3eb5ea;
+.btn-load{
+    
 }
