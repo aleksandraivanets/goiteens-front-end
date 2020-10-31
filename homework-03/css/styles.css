@@ -15,7 +15,7 @@ ul{
 }
 
 header{
-    padding: 70px 0;
+    padding: 72px 0 98px;
 }
 
 .container{
@@ -42,7 +42,11 @@ header{
 
 .menu-list__item {
 display: inline-block;
-padding: 70px;
+}
+
+
+.menu-list__item:not(:last-child){
+margin-right: 106px;
 }
 
 .menu-list__item-link:hover {
