@@ -1,3 +1,5 @@
+'use strict';
+
 //String
 const str = 'Привіт';
 
@@ -21,7 +23,7 @@ txt1 = 'true';
 
 console.log(true)
 
-// part-2
+// ----------------part-2------------------ //  
 
 let bookPage = 200;
 
