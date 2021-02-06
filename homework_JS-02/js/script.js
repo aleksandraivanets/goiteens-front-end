@@ -82,10 +82,8 @@ console.log('V :' + p * dC * dC * heightC);
 let n = 3;
 let m = 4;
 
-const result = Math.pow(3, 2);
-console.log(result);
+let k = (((n ** 2) + (m ** 2)) ** 0.5);
 
-const resulT = Math.pow(4, 2);
-console.log(resulT);
+k = Math.sqrt((n ** 2) + (m ** 2));
 
-console.log('k :' + (result + resulT) / 5);
+console.log(k);
