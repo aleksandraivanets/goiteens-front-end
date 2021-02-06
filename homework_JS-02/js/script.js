@@ -70,12 +70,14 @@ let width = 10;
 console.log('S :' + height * width + 'см');
 
 //--------------part 7
-
+let v = 0;
 let heightC = 10;
 let dC = 4;
-let p = 3.14;
+const r = dC / 2;
 
-console.log('V :' + p * dC * dC * heightC);
+v = Math.PI * (r ** 2) * heightC;
+
+console.log('v = ', v);
 
 //--------------part 8
 
@@ -87,3 +89,4 @@ let k = (((n ** 2) + (m ** 2)) ** 0.5);
 k = Math.sqrt((n ** 2) + (m ** 2));
 
 console.log(k);
+
