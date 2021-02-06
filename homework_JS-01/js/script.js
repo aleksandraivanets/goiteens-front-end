@@ -59,3 +59,5 @@ console.log(message);
 
 const isComing = confirm('Будь-ласка, підтвердіть ваше замовлення');
 console.log(isComing);
+
+//
