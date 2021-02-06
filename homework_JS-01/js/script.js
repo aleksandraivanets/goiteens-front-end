@@ -3,9 +3,7 @@
 //String
 const str = 'Привіт';
 
-str1 = 'Привіт';
-
-console.log(str)
+console.log(str);
 //Number
 let num = 123;
 
@@ -19,9 +17,7 @@ console.log(flag)
 
 const txt = 'true';
 
-txt1 = 'true';
-
-console.log(true)
+console.log(true);
 
 // ----------------part-2------------------ //  
 
