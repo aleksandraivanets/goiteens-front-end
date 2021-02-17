@@ -46,6 +46,10 @@ let result;
 result = 5 + 5 + '5';
 
 console.log(result);
+console.log(typeof result);
+
+console.log('-----------------')
+
 
 //------------PART 6
 
@@ -68,10 +72,7 @@ console.log(fullName);
 
 //-----------PART 8
 
-let userName = 'Олександра';
-let payment = '300грн';
+const userName = prompt('Як тебе звати?');
+const payment = prompt('Яка буде сума до оплати?');
 
-alert('Дякуємо, ' + userName + '! ' + 'До сплати ' + payment);
-
-
-
+alert(`Дякуємо, ${userName}! До спплати ${payment} гривень.`);
