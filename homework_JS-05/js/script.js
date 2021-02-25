@@ -28,6 +28,23 @@ console.log('------------------------');
 
 //-------------PART 3
 
+let num = 20;
 
+let maxNum = 30;
 
+while (num < maxNum) {
+    console.log(num);
+    num += 1;
+}
 
+console.log('------------------------');
+
+//----------------PART 4
+
+let name = '';
+
+do {
+    name = prompt('Введіть вашого улюбленого персонажа', '');
+} while (name.length > 6);
+
+console.log('Ввели персонажа: ', name);
