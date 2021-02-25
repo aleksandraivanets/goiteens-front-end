@@ -3,24 +3,31 @@
 
 //---------PART 1
 
-let num = [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-];
+let counter = 0;
 
-console.log(num);
+while (counter < 11) {
+    console.log('counter: ', counter);
+    counter += 1;
+}
 
+console.log('-------------------------')
 
 //-----------PART 2
 
-let i
+for (let i = 1; i <= 10; i++) {
+    const y = i % 2;
+    if (y != 0) {
+        console.log(`Число непарне - ${i}`);
+    } else {
+        console.log(`Число парне - ${i}`);
+    }
+}
 
-for (num i )
+console.log('------------------------');
+
+
+//-------------PART 3
+
+
+
+

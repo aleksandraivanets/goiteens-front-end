@@ -25,19 +25,18 @@ const age = 55;
 if (age) {
     if ((!Number.isNaN(1 * age)) && (age > 0)) {
 
-        if (age < 0 || age >= 16) {
+        if (age < 16) {
             console.log('Дитина');
-        } else if (age <= 17 || age >= 60) {
+        } else if (age >= 18 || age < 60) {
             console.log('Дорослі');
         }
-        else if (age <= 61 || age >= 100) {
+        else if (age >= 61 || age < 99) {
             console.log('Пенсіонери');
         }
     }
 }
 
-const age2 = 55 <= 60 ? 'Дорослий' : 'Не дорослий';
-console.log(age2);
+if (age) alert(age);
 
 
 //----------PART 3
