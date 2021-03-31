@@ -25,13 +25,14 @@ for (const Arr22 of Arr2) {
 
 console.log('------------PART4---------------')
 
-const message = 'Welcome to Ukraine!';
+let message = 'Welcome to Ukraine!';
 
-const messages = ['W', 'e', 'l', 'c', 'o', 'm', 'e', ' ', 't', 'o', ' ', 'U', 'k', 'r', 'a', 'i', 'n', 'e', '!'];
+message = message.split('')
+console.log(message);
 
-console.log(messages.indexOf('l'));
+console.log(message.indexOf('l'));
 
-console.log(messages.join(''));
+console.log(message.join(''));
 
 console.log('------------PART5---------------')
 
