@@ -24,7 +24,8 @@ const mul = function (n, m) {
 
 // return `n * m = ${n * m}, n + m = ${n + m}, n - m = ${n - m}`;
 
-console.log(mul(5, 9));
+console.log(mul);
+// console.log(mul(5, 9));
 
 console.log("-----------PART4-------------");
 
