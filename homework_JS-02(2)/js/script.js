@@ -10,21 +10,34 @@ hello1();
 
 console.log("-----------PART2-------------");
 
-function hello2(name = "Василь") {
-  console.log(`Привіт, ${name}!`);
+// function hello2(name = "Василь") {
+//   console.log(`Привіт, ${name}!`);
+// }
+
+// hello2();
+
+function hello2() {
+  let _name = prompt("Введіть ваше ім'я");
+  return console.log(`Привіт, ${_name}`);
 }
 
 hello2();
 
 console.log("-----------PART3-------------");
 
-const mul = function (n, m) {
-  return `n * m , n + m , n - m `;
-};
+function mul(n, m) {
+  return `n * m = ${n * m}, n + m = ${n + m}, n - m = ${n - m}`;
+}
+
+console.log(mul(5, 9));
+
+// const mul = function (n, m) {
+//   return `n * m = ${n * m}, n + m = ${n + m}, n - m = ${n - m}`;
+// };
 
 // return `n * m = ${n * m}, n + m = ${n + m}, n - m = ${n - m}`;
 
-console.log(mul);
+// console.log(mul);
 // console.log(mul(5, 9));
 
 console.log("-----------PART4-------------");
@@ -61,3 +74,16 @@ const myAverageScore = function (...mark) {
 };
 
 myAverageScore(...mark);
+
+// function hello2(){
+//   let _name = prompt('Введіть ваше ім\'я')
+//     return console.log(Привіт, ${_name});
+// }
+
+// //   3
+
+// function mul(n, m) {
+//     return n * m = ${n * m}, n + m = ${n + m}, n - m = ${n - m};
+// }
+
+// console.log(mul(4,5));
