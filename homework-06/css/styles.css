@@ -6,141 +6,129 @@ font-family: 'Satisfy', cursive;
 font-family: 'Roboto Slab', serif;
 */
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: #222222;
+a {
+  text-decoration: none;
+  color: #222222;
 }
 
-
-.conteiner{
-max-width: 970px;
-margin: 0 auto;
-padding: 0 15px;
+.conteiner {
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-.header{
-    padding-top: 44px ;
+.header {
+  padding-top: 44px;
 }
 
-.navigation{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 105px;
-   
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 105px;
 }
 
-.Golden{
-    color: #fed136;
-    font-size: 28px;
-    font-family:'Satisfy' ;
-    font-weight: bold;
-    line-height: 1.5;
-    
+.Golden {
+  color: #fed136;
+  font-size: 28px;
+  font-family: "Satisfy";
+  font-weight: bold;
+  line-height: 1.5;
 }
 
-.menu{
-    display: flex;
-    align-items: center;
-    
+.menu {
+  display: flex;
+  align-items: center;
 }
 
-.menu-item:not(:last-child){
-    margin-right: 40px;
+.menu-item:not(:last-child) {
+  margin-right: 40px;
 }
 
-.menu-item__link{
-font-size: 12px;
-font-weight: bold;
-font-family:'Montserrat' ;
-transition: 0.2s linear all;
+.menu-item__link {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  transition: 0.2s linear all;
 }
 
-.menu-item__link:hover{
-    color:#fed136;
+.menu-item__link:hover {
+  color: #fed136;
 }
 
-.menu-item__link::after{
-    content: "";
-    display: block;
-    background-color: #fed136;
-    transition: 0.2s linear all;
+.menu-item__link::after {
+  content: "";
+  display: block;
+  background-color: #fed136;
+  transition: 0.2s linear all;
 }
 
-
-.menu-item__link-ective{
-    color: #fed136;
+.menu-item__link-ective {
+  color: #fed136;
 }
 
-.title{
-    margin-bottom: 12px;
-    font-size: 40px ;
-    font-family: 'Montserrat',sans-serif;
-    color: black;
-    line-height: 1.2;
-    text-align: center;
-    font-weight: bold ;
-
+.title {
+  margin-bottom: 12px;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: bold;
 }
 
-.sub-title{
-   text-align: center;
-   font-family: 'Libre Baskerville';
-   font-weight: 700;
-   font-size: 15px;
-   color: #777777;
-   text-transform: uppercase;
-   line-height: 1.2;
-   margin-bottom: 78px ;
-
+.sub-title {
+  text-align: center;
+  font-family: "Libre Baskerville";
+  font-weight: 700;
+  font-size: 15px;
+  color: #777777;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 78px;
 }
 
-
-.little-box{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Montserrat',sans-serif;
+.little-box {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
 }
 
 .services-item {
-    width: 33.33%;
-    margin-bottom:101px ;
-    padding: 20px;
+  width: 33.33%;
+  margin-bottom: 101px;
+  padding: 20px;
 }
 
-
-
-.services-item_name{
-     text-align: center;
-     margin-bottom: 13px;
+.services-item_name {
+  text-align: center;
+  margin-bottom: 13px;
 }
 
 .services-item_text {
   font-size: 12px;
- font-family: 'Roboto Slab';
-  color:#777777 ;
+  font-family: "Roboto Slab";
+  color: #777777;
   text-align: center;
   /*line-height: 1.6;
   margin-left: 84px;
   */
 }
 
-.services-img{
-    display: flex;
+.services-img {
+  display: flex;
   justify-content: center;
   align-items: center;
-margin: 0 auto;
+  margin: 0 auto;
   width: 74px;
   height: 74px;
   border-width: 3px;
@@ -149,62 +137,20 @@ margin: 0 auto;
   border-color: rgb(254, 209, 54);
   background-color: rgb(255, 255, 255);
   margin-bottom: 23px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*----------FOOTER-----------*/
 
-.footer{
-    background-image: url(../images/Map\ Image.png);
-    background-color: rgb(34, 34, 34);
-    background-size: contain;
-    min-height: 677px;
-    background-repeat: no-repeat;
-    background-position: right bottom ;
+.footer {
+  background-image: url(../images/Map\ Image.png);
+  background-color: rgb(34, 34, 34);
+  background-size: contain;
+  min-height: 677px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-
 
 /*background-color: rgb(34, 34, 34);
   position: absolute;
@@ -212,106 +158,105 @@ margin: 0 auto;
   width: 1402px;
   height: 677px;*/
 
-
-  .footer-us{
-       width: 290px;
-       height: 120px;
-       padding-top: 100px;
-       margin-bottom: 132px;
-
-  }
-
-  .contact{
-      color:white;
-    font-size: 36px;
-    font-family:'Montserrat' ;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.5;
-    text-align: center;
+.footer-us {
+  width: 290px;
+  height: 120px;
+  padding-top: 100px;
+  margin-bottom: 132px;
 }
 
-.copy{
-    color: #777777;
-    font-family: 'Libre Baskerville';
-    text-align: center;
-    font-weight: normal;
-   font-size: 13px;
-   text-transform: uppercase;
-   line-height: 1.2;
-   margin-top: 13px;
-}
-  
-
-.forma{
-    display: flex;
-    justify-content: space-between;
-    width: 940px;
+.contact {
+  color: white;
+  font-size: 36px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: center;
+  justify-content: center;
 }
 
-.input-text{
-    display: flex;
+.copy {
+  color: #777777;
+  font-family: "Libre Baskerville";
+  text-align: center;
+  font-weight: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-top: 13px;
 }
 
-.inputs{
-    flex-direction: column;
+.forma {
 }
 
-.input{
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(187,187,187);
-    font-weight: bold;
-    border-style: solid;
-    border-radius: 2px;
-    border-width: 1px;
-    width: 455px;
-    height: 50px;
-    padding-top: 3px;
-    padding-left: 20px;
+.input-text {
+  display: flex;
+  justify-content: center;
+  margin-left: 9px;
 }
 
-.form ::placeholder{
-    color: rgb(187,187,187);
-    text-transform: uppercase;
+.inputs {
+  flex-direction: column;
+  display: flex;
+  margin-right: 9px;
 }
 
-.input1:not(:last-child){
-    margin-bottom: 30px;
+.input {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  width: 455px;
+  height: 50px;
+  padding-top: 3px;
+  padding-left: 20px;
 }
 
-.responsive{
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(187,187,187);
-    font-weight: bold;
-    text-align: left;
-    border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    width: 455px;
-    height: 210px;
-    padding-top: 16px;
-    padding-left: 20px;
+.form ::placeholder {
+  color: rgb(187, 187, 187);
+  text-transform: uppercase;
 }
 
-.btn{
-    margin-top: 24px;
-    text-align: center;
+.input1:not(:last-child) {
+  margin-bottom: 30px;
 }
 
-.btn-message{
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(255,255,255);
-    background-color: rgb(254, 209, 54) ;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 3px;
-    width: 240px;
-    height: 66px;
+.responsive {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-align: left;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  width: 455px;
+  height: 210px;
+  padding-top: 16px;
+  padding-left: 20px;
+}
+
+.btn {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.btn-message {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(254, 209, 54);
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 3px;
+  width: 240px;
+  height: 66px;
 }
 
 /* .forma input{
@@ -367,10 +312,3 @@ margin: 0 auto;
 
 
    */
-
-
-
-
-
-
-
